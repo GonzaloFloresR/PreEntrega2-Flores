@@ -219,6 +219,7 @@ section article p + a {
 
 section article p + a:hover {
     padding-left: 20px;
+    color:white;
 }
 
 aside div.asideSection iframe {
