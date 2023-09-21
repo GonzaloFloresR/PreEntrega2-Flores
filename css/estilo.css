@@ -274,4 +274,76 @@ footer nav {
     line-height: 25px;
 }
 
+/* Estilo del formularioContacto */
 
+article#contacto {
+    background: black;
+}
+
+#formularioContacto {
+    display: flex;
+    flex-direction: column;
+}
+#formularioContacto input, #formularioContacto textarea {
+    width: 94%;
+    height: 45px;
+    margin: 0px auto 20px auto;
+    font-size: 1.1rem;
+    color: rgb(169, 166, 166);
+}
+#formularioContacto input {
+    height: 45px;
+}
+
+#formularioContacto textarea {
+    height: 207px;
+}
+#formularioContacto input[type='submit']{
+    width: 307px;
+    background: rgb(195, 67, 67);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    transition: font-size 1s;
+    align-self: flex-end;
+    margin: 0px 5px;
+}
+
+#formularioContacto input[type='submit']:hover {
+    font-size: 1.7rem;
+}
+
+/* Estilos página skateboarding */
+
+.dosColumnas, .tresColumnas  {
+    column-gap:25px;/* Separacion entre columnas */
+	-o-column-gap:25px;
+	-ms-column-gap:25px;
+	-moz-column-gap:25px;
+	-webkit-column-gap:25px;
+	
+	column-rule:1px dotted #ccc; /* Linea punteada de color gris */
+	-o-column-rule:1px dotted #ccc;
+	-moz-column-rule:1px dotted #ccc;
+	-webkit-column-rule:1px dotted #ccc;
+	-ms-column-rule:1px dotted #ccc;
+	
+	padding-bottom: 0px; /* le saco el padding que ya traia el articulo */
+	background: none; /* le saco el fondo de imagen del articulo */
+	margin-bottom: 25px;
+}
+.dosColumnas {
+    column-count: 2;
+}
+.tresColumnas {
+    column-count:3;
+}
+.dosColumnas p {
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+}
+div.dosColumnas img {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
