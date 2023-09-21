@@ -42,8 +42,8 @@
         <img src="img/Honda.jpg" alt="Foto MotoCross">
         <figcaption>Moto</figcaption>
     </figure>
-    <div id="wrapper">
-        <section>
+    <main class="row">
+        <section class=" col-lg-8">
                 <h2>Aventuras sobre la moto</h2>
                 <div class="tresColumnas">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam tortor, consequat vel leo ac, accumsan rhoncus orci. Maecenas id nibh aliquam, fringilla purus ut, dignissim lectus. Sed ultrices condimentum mi ac scelerisque. Integer dapibus nibh sed elit pellentesque, vitae euismod enim imperdiet. Phasellus vehicula imperdiet odio, nec feugiat turpis. In hendrerit neque nec purus iaculis, posuere convallis leo accumsan. Mauris mollis quis justo eu vehicula. Pellentesque consequat nisi ac tortor vestibulum, eget feugiat ipsum sagittis. Vestibulum sollicitudin lorem purus, id semper nibh tempor eget. Aliquam sit amet libero ac massa ullamcorper sollicitudin vel non arcu. Maecenas mi purus, suscipit cursus neque non, venenatis malesuada elit. Nam lectus lectus, laoreet nec magna vitae, posuere pellentesque tellus.</p>
@@ -54,14 +54,14 @@
                 </div>	
     
         </section>
-        <aside>
-            <div class="asideSection">
+        <aside class="col col-lg-4">
+            <div class="asideSection col-11 mx-auto">
                 <h3>Videos de Motos</h3>
                 <iframe width="295" height="166" src="https://www.youtube-nocookie.com/embed/VwAgmNWcmW4?si=-ermGoQJNYXZm67k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe width="295" height="166" src="https://www.youtube-nocookie.com/embed/BGx4IHXatps?si=uPNYuJWelNjdjDkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe width="295" height="166" src="https://www.youtube-nocookie.com/embed/_hqk7vCXbo4?si=5wBWqm0T0iwp2T4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="asideSection">
+            <div class="asideSection col-11 mx-auto">
                 <h3>Noticias Mensuales</h3>
                 <ul>
                     <li><a href="#"> Junio</a></li>
@@ -73,23 +73,22 @@
             </div>
     
         </aside>
-        </div>
-    <footer>
+    </main>
+    <footer class="d-flex flex-row justify-content-sm-center justify-content-xl-between align-items-center">
         <nav id="navFooter">
-            <ul>
-                <li><a href="index.html" title="Página de Inicio" class="activado">Home</a></li>
-                <li><a href="skateboarding.html" title="Skate or die" >Skateboarding</a></li>
-                <li><a href="snowboarding.html" title="Todo sobre el snowboad" >Snowboarding</a></li>
-                <li><a href="moto.html" title="Moto y más moto">Moto</a></li>
-                <li><a href="contacto.html" title="Contactanos" >Contacto</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html" title="Página de Inicio" >Home</a></li>
+            <li><a href="skateboarding.html" title="Skate or die" >Skateboarding</a></li>
+            <li><a href="snowboarding.html" title="Todo sobre el snowboad" >Snowboarding</a></li>
+            <li><a href="moto.html" title="Moto y más moto" class="actual">Moto</a></li>
+            <li><a href="contacto.html" title="Contactanos" >Contacto</a></li>
+          </ul>
         </nav>
-        <div id="footer-right">
-            <p>Presidente Riesco, Las Condes, Santiago, Chile.
-                Teléfono: +56 9 9265 8976 | info@xgames.com</p>
+        <div id="footer-right" class="d-none d-md-none d-xl-block">
+          <p>Presidente Riesco, Las Condes, Santiago, Chile.
+            Teléfono: +56 9 9265 8976 | info@xgames.com</p>
         </div>
-
-    </footer>
+      </footer>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
